@@ -14,7 +14,8 @@
     "nodemon": "^1.11.0"
   },
   "scripts": {
-    "start": "nodemon index.js --exec babel-node --presets es2015",
+    "start": "babel-node --presets es2015 index.js --exec",
+    "dev": "nodemon babel-node --presets es2015 index.js --exec",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
