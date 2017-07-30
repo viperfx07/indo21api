@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.3"
+  },
+  "name": "indo21",
+  "version": "1.0.0",
+  "description": "provide api for indoxxi",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node --presets es2015",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
